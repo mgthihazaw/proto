@@ -18,3 +18,13 @@ $(function() {
  
   });
 });
+/*********************************************
+                           Carousel
+**********************************************/
+$(function(){
+  $("#team-members").owlCarousel({
+  	items: 3,
+  	autoplay:true,
+  	loop:true
+  });
+});
