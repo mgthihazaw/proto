@@ -28,3 +28,14 @@ $(function(){
   	loop:true
   });
 });
+
+/*********************************************
+                          Testimonial Carousel
+**********************************************/
+$(function(){
+  $("#customer-testimonials").owlCarousel({
+  	items: 1,
+  	autoplay:true,
+  	loop:true
+  });
+});

@@ -10,7 +10,7 @@ body{
 	/*color: #34c6d3;*/
 	
 }
-h1,h2,h3{
+h1,h2,h3,h4{
 	color:#41464b;
 	text-transform:uppercase;
 }
@@ -86,6 +86,7 @@ p{
    background-color: #34c6d3;
    color:#fff;
 }
+
 #home-cover,#home-heading,#home-btn{
 	animation-delay: .5s;
 }
@@ -115,6 +116,9 @@ p{
    font-weight: 700;
    text-align: center;
    margin:0 0 30px 0;
+}
+.content-title-white h3{
+	color: #fff;
 }
 .content-title-underline{
 	width: 35px;
@@ -255,3 +259,100 @@ h4 .team-member-name{
 	.social-icon i:hover{
 		color:#34c6d3;
 	}
+
+	/*********************************************
+                              TESTIMONIALS
+***********************************************/
+#testimonials-cover {
+	background-image: url('../img/bg-testimonials.jpg');
+}
+#testimonials .content-box {
+	background-color: rgba(0,0,0,0.1)
+}
+#customer-testimonials {
+	 padding:50px 0;
+}
+.testimonial img{
+	max-width: 120px;
+	margin: 0 auto 0 auto;
+}
+.testimonial blockquote{
+  border:0;
+  font-family: Georgia,sans-serif;
+  font-style:italic;
+  color:#fff;
+  padding:6px 15px;
+  position: relative;
+}
+.testimonial blockquote p{
+	color: #fff;
+}
+/*.testimonial blockquote::before,.testimonial blockquote::after{
+     font-size: 80px;
+     font-style: normal;
+     line-height: 1;
+     width: 30px;
+     height: 30px;
+     position:absolute;
+
+}
+.testimonial blockquote::before {
+   content: "\201C";
+   top:0;
+   left:0;
+}
+.testimonial blockquote::after{
+ content: "\201D";
+bottom:0;
+right:0;
+
+}*/
+
+/*********************************************
+                                Pricing
+***********************************************/
+
+.pricing-box{
+	border: 3px solid #34c6d3;
+	padding: 50px 0;
+	margin: 40px 0;
+}
+h4.pricing-title{
+	background-color: #34c6d3;
+	color:#fff;
+	display:inline-block;
+	font-size:15px;
+	font-weight:700;
+	padding: 7px 15px 7px 15px;
+	margin: 0 0 30px 0;
+}
+h3.pricing-value{
+	font-size: 60px;
+	font-weight: 700;
+}
+h3.pricing-value sup{
+	font-size: 20px;
+	font-weight: normal;
+	vertical-align: super;
+}
+ul.pricing-spec {
+	list-style:none;
+	padding-left:0;
+	margin:20px 0 60px 0;
+}
+ul.pricing-spec li p{
+   font-weight: 400px;
+   text-transform:uppercase;
+}
+.pricing-box-lg{
+   padding:90px 0;
+   margin:0;
+   background-color: #34c6d3;
+}
+.pricing-box-lg h4.pricing-title{
+   background-color: #fff;
+   color:#34c6d3;
+}
+.pricing-box-lg ul.pricing-spec li p{
+	color: #fff;
+}
